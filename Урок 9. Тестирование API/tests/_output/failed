@@ -1,0 +1,3 @@
+tests\functional\UsersCest.php:checkUserCreate
+tests\functional\UsersCest.php:checkUnableUserWithoutEmailAndChettam
+tests\functional\UsersCest.php:checkUnableUserWithoutEmailAndChettam
