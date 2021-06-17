@@ -6,8 +6,13 @@
 
 actor: AcceptanceTester
 modules:
-    enabled:
-        - PhpBrowser:
-            url: http://localhost/myapp
-        - \Helper\Acceptance
-step_decorators: ~        
+  enabled:
+    - WebDriver:
+        url: https://prostochizh.github.io/form/
+        host: localhost
+        port: 9515
+        browser: chrome
+        window_size: 1420x900
+    - \Helper\Acceptance
+    - \Helper\BaseHelper
+step_decorators: ~
